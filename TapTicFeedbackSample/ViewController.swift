@@ -32,6 +32,7 @@ class ViewController: UIViewController {
 
         os_log("UINotificationFeedbackType: %lu", log: log, type: .debug, type.rawValue)
 
+        generator.prepare()
         generator.notificationOccurred(type)
     }
 
@@ -43,6 +44,7 @@ class ViewController: UIViewController {
         os_log("UIImpactFeedbackStyle: %lu", log: log, type: .debug, style.rawValue)
 
         let generator = UIImpactFeedbackGenerator(style: style)
+        generator.prepare()
         generator.impactOccurred()
     }
 }
