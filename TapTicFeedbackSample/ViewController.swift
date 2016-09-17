@@ -47,5 +47,11 @@ class ViewController: UIViewController {
         generator.prepare()
         generator.impactOccurred()
     }
+
+    @IBAction func selectionFeedbackAction(_ sender: UIButton) {
+        let generator = UISelectionFeedbackGenerator()
+        generator.prepare()
+        generator.selectionChanged()
+    }
 }
 
