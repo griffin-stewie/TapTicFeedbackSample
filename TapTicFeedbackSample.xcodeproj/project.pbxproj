@@ -512,6 +512,7 @@
 				E382F89E1D8B3E19004F9959 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		E382F89F1D8B3E19004F9959 /* Build configuration list for PBXNativeTarget "TapTicFeedbackSampleTests" */ = {
 			isa = XCConfigurationList;
@@ -520,6 +521,7 @@
 				E382F8A11D8B3E19004F9959 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		E382F8A21D8B3E19004F9959 /* Build configuration list for PBXNativeTarget "TapTicFeedbackSampleUITests" */ = {
 			isa = XCConfigurationList;
@@ -528,6 +530,7 @@
 				E382F8A41D8B3E19004F9959 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
